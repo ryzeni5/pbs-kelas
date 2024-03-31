@@ -1,10 +1,11 @@
 const mysql = require('mysql')
 
+//koneksi ke database sesuaikan dengan nama database
 const db = mysql.createConnection({
-    host : 'localhost',
-    user : 'root',
-    password :'',
-    database :'db_kampus'
+    host : 'sql6.freesqldatabase.com',
+    user : 'sql6695577',
+    password :'37JRDLJEE3',
+    database :'sql6695577'
 })
 
 module.exports = db
